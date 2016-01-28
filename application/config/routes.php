@@ -40,8 +40,8 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
-
 $route['sleep'] = 'First/zzz';
+$route['comp(\d+)/(:any)'] = 'Wise/bingo';
 
 
 /* End of file routes.php */
