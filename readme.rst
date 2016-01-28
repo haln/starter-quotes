@@ -2,6 +2,18 @@
 Starter Webapp - Quotes
 #######################
 
+************
+TEAM MEMBERS
+************
+Casper Co, Anderson Phan, Justin Walk
+
+******************
+CODING CONVENTIONS
+******************
+Almond Style
+
+
+
 This is the starter webapp for Tutorial ci-normal01
 
 It is purposefully broken.
