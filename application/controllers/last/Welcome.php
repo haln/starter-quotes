@@ -2,7 +2,11 @@
 	/**
 	 * the last page with the rendered quote.
 	 *
+<<<<<<< HEAD
 	 * controllers/last/Welcome.php
+=======
+	 * controllers/Last/welcome.php
+>>>>>>> origin/develop
 	 *
 	 * ------------------------------------------------------------------------
 	 */
