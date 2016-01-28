@@ -13,7 +13,8 @@ class Last extends Application {
 		parent::__construct();
 	}
 	
-	function index(){
+	function index()
+	{
 		$this->data['pagebody'] = 'last'; // The view we want to see.
 		$record = $this->quotes->last();
 		$this->data = array_merge($this->data, $record);
