@@ -2,11 +2,11 @@
 	/**
 	 * the last page with the rendered quote.
 	 *
-	 * controllers/Last.php
+	 * controllers/last/Welcome.php
 	 *
 	 * ------------------------------------------------------------------------
 	 */
-class Last extends Application {
+class Welcome extends Application {
 
 	function __construct()
 	{
