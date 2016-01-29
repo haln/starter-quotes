@@ -2,9 +2,8 @@
 	/**
 	 * the last page with the rendered quote.
 	 *
-	 * controllers/Last/welcome.php
+	 * controllers/last/Welcome.php
 	 *
-	 * ------------------------------------------------------------------------
 	 */
 class Welcome extends Application {
 
