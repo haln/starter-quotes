@@ -41,8 +41,8 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 $route['sleep'] = 'First/zzz';
-$route['comp(\d+)/(:any)'] = 'Wise/bingo';
 $route['show/3'] = 'first/gimmie/3';
+<<<<<<< HEAD
 $route['dunno'] = function() 
 {
     $source = './data/surprise.jpg'; // an image you provide
@@ -52,6 +52,11 @@ $route['dunno'] = function()
     readfile($source); // dish it
     die(); // and we don't have to go any further
 };
+=======
+$route['([a-z]{4})/bingo'] = 'Bingo';
+$route['comp(\d+)/(:any)'] = 'Wise/bingo';
+
+>>>>>>> refs/remotes/CoCoCompany/develop
 
 
 /* End of file routes.php */
