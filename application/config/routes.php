@@ -43,6 +43,15 @@ $route['404_override'] = '';
 $route['sleep'] = 'First/zzz';
 $route['comp(\d+)/(:any)'] = 'Wise/bingo';
 $route['show/3'] = 'first/gimmie/3';
+$route['dunno'] = function() 
+{
+    $source = './data/surprise.jpg'; // an image you provide
+    // set the mime type for that image
+    header("Content-type: image/jpeg");
+    header('Content-Disposition: inline');
+    readfile($source); // dish it
+    die(); // and we don't have to go any further
+};
 
 
 /* End of file routes.php */
